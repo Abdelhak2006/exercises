@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 375px;
+  height: 832px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.animal-img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.sound-btn {
+  background-color: #64a8c4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sound-btn:hover {
+  background-color: #4c8aa4;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 60px;
+}
+
+.back-btn, .next-btn {
+  background-color: #1c5b8b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back-btn:hover, .next-btn:hover {
+  background-color: #174a73;
+}

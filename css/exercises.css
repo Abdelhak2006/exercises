@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 375px;
+  height: 832px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 26px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.item span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+.back-btn {
+  align-self: flex-start;
+  background-color: #1c5b8b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: auto;
+  transition: 0.3s;
+}
+
+.back-btn a {
+  text-decoration: none;
+  color: white
+}
+
+.back-btn:hover {
+  background-color: #174a73;
+}
